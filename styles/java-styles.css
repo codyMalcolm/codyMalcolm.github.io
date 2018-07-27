@@ -1,0 +1,70 @@
+.javascript-project {
+    box-sizing: border-box;
+    border: 1px solid #DCAE1D;
+    border-radius: 10px;
+    padding: 1em 2em 0;
+    overflow: hidden;
+    width: 50em;
+    margin: 0 auto 1em;
+}
+
+.left-half {
+    width: 50%; text-align: center; float: left; margin: 0.5em 0; display: block; clear: left;
+}
+
+.right-half {
+    width: 50%; text-align: center; float: right; margin: 0.5em 0; display: block; clear: right;
+}
+
+.full-width {
+    width: 100%; text-align: center; margin: 0.5em 0; display: block; clear: both; overflow: hidden;
+}
+
+input[type="number"], input[type="text"] {
+    height: 2em;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;   
+    outline: none;
+}
+
+input[type="number"]:focus, input[type="text"]:focus {
+    box-shadow: 1px 1px 1px #333333;
+}
+
+
+button {
+    font-weight: bold;
+    width: 10em;
+    height: 2em;
+    border-radius: 5px;
+    text-align: center;
+    color: #00303F;
+    background-color: #98B3AE;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+}
+
+button:hover {
+    box-shadow: 3px 3px 2px #333333;
+    transition: 0.2s ease;
+}
+
+button:active {
+  position: relative;
+  left: 3px; top: 3px;
+  box-shadow: 1px 1px 1px #333333;
+}
+
+.convert-result {
+    min-height: 1.2em;
+}
+
+.short-number-input {
+    width: 5em;
+}
+
+.long-number-input {
+    width: 20em;
+}

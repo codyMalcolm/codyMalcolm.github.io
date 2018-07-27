@@ -1,0 +1,80 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cody Malcolm - Projects</title>
+        <meta name="description" content="Cody Malcolm's projects.">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/java-styles.css">
+    </head>
+    
+    <body>
+        <header>
+        <ul class="nav">
+            <li><a class="nav__link" href="index.html">Home</a></li>
+            <li><a class="nav__link" href="blog.html">Blog</a></li>
+            <li><a class="nav__link nav__link--current" href="projects.html">Projects</a></li>
+            <li class="dropdown"><a class="nav__link">Useful links</a> <!--href="javascript:void(0)"-->
+                <div class="dropdown--useful-links">
+                    <a class="dropdown__link" href="courses.html">Courses</a>
+                    <a class="dropdown__link" href="https://devdocs.io/html/" target="_blank">HTML reference</a>
+                    <a class="dropdown__link" href="https://devdocs.io/css/" target="_blank">CSS reference</a>
+                </div>
+            </li>
+            <li><a class="nav__link" href="contact.html">Contact</a></li>
+            <li><a class="nav__link" href="about.html">About</a></li>
+        </ul>
+        </header>
+        <div class="main">
+            <h2>This page is under construction. It was created on July 3<sup>rd</sup>, 2018.</h2>
+        
+            <p>Until the page is ready to go live, enjoy these samples.</p>
+        
+            <h3>Javascript Projects</h3>
+            
+            
+            <form action="" class="javascript-project" id="rn-converter">
+             <h4>Roman Numeral Converter</h4>
+            
+            <p>This converter will convert between integers and roman numerals.</p>
+                <div class="left-half">
+                    <input id="i-to-rn-radio" type="radio" name="rn-converter" value="i-to-rn" onclick="showIntegerConverter()" checked><label for="i-to-rn">Integer to Roman Numeral</label>
+                </div>
+                <div class="right-half">
+                    <input id="rn-to-i-radio" type="radio" name="rn-converter" value="rn-to-i" onclick="showRNConverter()"><label for="rn-to-i">Roman Numeral to Integer</label>
+                </div>
+                <div class="left-half">
+                    <input type="number" class="long-number-input" name="i-to-convert" id="i-to-rn-input" placeholder="Enter a number to convert" min="1" max="10000">
+                    <input type="text" class="long-number-input" name="rn-to-convert" id="rn-to-i-input" placeholder="Enter a roman numeral to convert" style="display: none;">
+                </div>
+                <div class="right-half"><button type="button" onclick="romanNumeralConverter()">Convert</button>
+                </div>
+                <div class="full-width"><p class="convert-result" id="rn-convert-result"></p>
+                </div>         
+            </form>
+            
+            <form action="" class="javascript-project" id="base-number-converter">
+             <h4>Base Number Converter</h4>
+            
+            <p>This converter will convert a number between two base systems, up to base 36.</p>
+                <div class="left-half">
+                    <label for="input-base">Initial base system: </label><input class="short-number-input" placeholder="10" id="input-base" type="number" name="input-base-input" value="input-base" min="2" max="36">
+                </div>
+                <div class="right-half">
+                    <label for="output-base">Output base system: </label><input class="short-number-input" placeholder="16" id="output-base" type="number" name="output-base-input" value="output-base" min="2" max="36">
+                </div>
+                <div class="left-half">
+                    <input class="long-number-input" type="text" name="number-to-convert" id="base-converter-num-input" placeholder="Enter a number to convert">
+                </div>
+                <div class="right-half"><button type="button" onclick="baseNumberConverter()">Convert</button>
+                </div>
+                <div class="full-width"><p class="convert-result" id="base-num-convert-result"></p>
+                </div>         
+            </form>
+            
+        </div>
+
+        <script src="scripts/java-projects.js"></script>
+    </body>
+</html>
