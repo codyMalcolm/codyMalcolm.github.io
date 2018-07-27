@@ -1,2 +1,0 @@
-// Terra filter
-// Chess "knight vision"

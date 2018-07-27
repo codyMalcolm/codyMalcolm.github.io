@@ -1,11 +1,24 @@
+:root {
+    --greyscale1: #ffffff;
+    --greyscale2: #aaaaaa;
+    --greyscale3: #333333;
+    --greyscale4: #000000;
+    --color0: #CCBBAA;
+    --color1: #AA9988;
+    --color2: #887766;
+    --color3: #665544;
+    --color4: #443322;
+}
+
 .javascript-project {
     box-sizing: border-box;
-    border: 1px solid #DCAE1D;
+    border: 3px solid var(--color4);
     border-radius: 10px;
     padding: 1em 2em 0;
     overflow: hidden;
     width: 50em;
     margin: 0 auto 1em;
+    background-color: var(--color0);
 }
 
 .left-half {
@@ -39,16 +52,17 @@ button {
     height: 2em;
     border-radius: 5px;
     text-align: center;
-    color: #00303F;
-    background-color: #98B3AE;
+    color: var(--color4);
+    background-color: var(--color1);
     display: block;
     margin: 0 auto;
     outline: none;
+    border-color: var(--color1);
 }
 
 button:hover {
     box-shadow: 3px 3px 2px #333333;
-    transition: 0.2s ease;
+    transition: 0.05s ease;
 }
 
 button:active {
