@@ -47,7 +47,7 @@ body {
   font-size: 1em;
   width: 8em;
   height: 8em;
-  border: 2px solid var(--color1);
+  border: 2px solid var(--color0);
   background-color: var(--color1);
   color: var(--color4);
   text-decoration: none;
