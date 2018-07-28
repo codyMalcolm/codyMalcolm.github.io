@@ -7,11 +7,67 @@
         <title>Cody Malcolm - Contact Info</title>
         <meta name="description" content="Cody Malcolm's Contact Info.">
         <link rel="stylesheet" href="styles/main.css">
+        <style>
+            #links-container {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              width: 100%;
+              margin: 0;  
+              justify-content: center;
+              padding: 4em 0;
+              background-color: var(--color1);
+            }
+
+            .contact-links {
+              font-size: 1em;
+              width: 8em;
+              height: 8em;
+              border: 2px solid var(--color3);
+              background-color: var(--color4);
+              color: var(--color0);
+              text-decoration: none;
+              margin: 1em 3em;
+              border-radius: 50%;
+              font-weight: bold;
+              line-height: 8em;  
+            }
+
+            .contact-links:hover {
+              background-color: var(--color3);
+            }
+        </style>
     </head>
     
     <body>
         <div id="main">
-            <h2>This website is under construction. </h2>
+            <h2>Contact me in any of the following ways:</h2>
+            <div id="links-container">
+                <a href="https://www.facebook.com/cody.tk.5"
+                   target="_blank" 
+                   class="contact-links">Facebook
+                </a>
+                <a href="https://twitter.com/CtkShadow" 
+                   target="_blank" 
+                   class="contact-links">Twitter
+                </a>
+                <a href="https://github.com/codyMalcolm" 
+                   target="_blank" 
+                   class="contact-links">GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/cody-malcolm-506194167/"
+                   target="_blank" 
+                   class="contact-links">LinkedIn
+                </a>
+                <a href="mailto:cody@codymalcolm.com" 
+                   target="_blank" 
+                   class="contact-links">Email
+                </a><!--
+                <a href="tel:234-456-6789" 
+                   target="_blank" 
+                   class="contact-links">Telephone
+                </a>-->
+            </div>
             <div id="nav-container">
                 <a href="index.html" 
                    class="nav-links">Home
