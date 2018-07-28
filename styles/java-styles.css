@@ -13,7 +13,7 @@
 .javascript-project {
     box-sizing: border-box;
     border: 3px solid var(--color4);
-    border-radius: 10px;
+    border-radius: 1em;
     padding: 1em 2em 0;
     overflow: hidden;
     width: 50em;
