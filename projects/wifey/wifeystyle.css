@@ -1,0 +1,107 @@
+@font-face {
+	font-family: 'HappyMonkey';
+  	src: url('fonts/HappyMonkey-Regular.ttf') format('truetype');
+}
+
+body {
+	background-color: beige;
+}
+
+html {
+    box-sizing: border-box;
+    font-family:'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+}
+
+body {
+    margin: 0;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+	color: white;	
+    text-align: center;
+    transition: transform 0.5s;
+    font-family: HappyMonkey, sans-serif;
+    text-shadow: #000000 0 0 1px, #000000 0 0 4px, #000000 0 0 10px;
+}
+
+.columns {
+	display: flex;
+	height: 100vh;	
+}
+
+.col {
+	flex-grow: 1;	
+    background-size:cover;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition:     
+        flex-grow 0.5s cubic-bezier(0.60,-0.20, 0.75,-0.10),
+        background 0.25s;
+}
+
+.minor.left {
+	transform: translateX(-100%);
+}
+
+.minor.right {
+	transform: translateX(100%);
+}
+
+.minor.top {
+	transform: translateY(-1000%);
+}
+
+.minor.bottom {
+	transform: translateY(1500%);
+}
+
+.col.open {
+	flex-grow: 8;
+}
+
+.col.open > .minor {
+	transform: translate(0, 0);
+}
+
+.col.open > .major {	
+	font-size: 3em;
+}
+
+.major {
+	transition: font-size 0.5s cubic-bezier(0.60,-0.20, 0.75,-0.10);  
+	font-size: 24px;
+}
+
+.minor {
+	font-size: 30px;
+}
+
+.col1 {
+	background-image: url(images/1r.jpg);
+}
+
+.col2 {
+	background-image: url(images/3r.jpg);
+}
+
+.col3 {
+	background-image: url(images/2r.jpg);
+}
+
+.col4 {
+	background-image: url(images/4r.jpg);
+}
+
+.col5 {
+	background-image: url(images/5r.jpg);
+}
+
