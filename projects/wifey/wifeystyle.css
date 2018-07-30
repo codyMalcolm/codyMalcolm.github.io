@@ -5,6 +5,7 @@
 
 body {
 	background-color: beige;
+	width: 100vw;
 }
 
 html {
@@ -26,7 +27,8 @@ body {
 p {
 	color: white;	
     text-align: center;
-    transition: transform 0.5s;
+    transition: transform 0.5s,
+    			font-size 0.5s cubic-bezier(0.60,-0.20, 0.75,-0.10);
     font-family: HappyMonkey, sans-serif;
     text-shadow: #000000 0 0 1px, #000000 0 0 4px, #000000 0 0 10px;
 }
@@ -70,6 +72,7 @@ p {
 
 .col.open > .minor {
 	transform: translate(0, 0);
+	font-size: 30px;
 }
 
 .col.open > .major {	
@@ -77,12 +80,11 @@ p {
 }
 
 .major {
-	transition: font-size 0.5s cubic-bezier(0.60,-0.20, 0.75,-0.10);  
 	font-size: 36px;
 }
 
 .minor {
-	font-size: 30px;
+	font-size: 10px;
 }
 
 .col1 {
