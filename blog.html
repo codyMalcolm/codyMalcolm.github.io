@@ -12,10 +12,12 @@
         <div id="main">
             <h2>This blog is under construction. </h2>
             <div id="blog-container">
-				<div class="blog-entry">
+				<div class="blog-entry introduction">
 	            	<h3>Introduction</h3>
 
-	            	<p>Hello and welcome to codyMalcolm.com! Eventually, this site will demonstrate my breadth and depth of skills as a developer. For now, I've only been learning for about a month, so please excuse me while I continue acquiring the knowledge to get everything set up properly. For now this will be more of a journal, and I'll "post" at the end of each day what I learned and worked on that day.</p>
+	            	<p>Hello and welcome to codyMalcolm.com! Eventually, this site will demonstrate my breadth and depth of skills as a developer. For now, I've only been learning for about a month, so please excuse me while I continue acquiring the knowledge to get everything set up properly. For now this will be more of a journal, and I'll "post" at the end of most days what I learned and worked on that day.</p>
+
+	            	<p class="date">July 27<sup>th</sup>, 2018</p>
 	        	</div>
 				<div class="blog-entry">
 					<h3>How I got to here</h3>
@@ -23,21 +25,42 @@
 	            	<ul>
 	            		<li><a href="https://learn.freecodecamp.org/" target="_blank">freeCodeCamp.org</a> - This is where I started, and I am just wrapping up the Front End Libraries Certification. I have made a personal commitment to complete at least one new lesson or project a day, even if I am focusing on different courses at the time. <a href="https://www.freecodecamp.org/codymalcolm" target="_blank">Track my profile.</a>
 	            		</li>
-	            		<li><a href="https://wesbos.com/" target="_blank">Wes Bos'</a> <a href="https://javascript30.com/" target="_blank">30 day Javascript coding challenge</a> - As of July 28th, I have completed up to day 6 of Wes Bos's program and every day I learn a lot of new techniques. This course is exceeding my wildest expectations. I will definitely take several of Wes' other courses once this one is completed.
+	            		<li><a href="https://wesbos.com/" target="_blank">Wes Bos'</a> <a href="https://javascript30.com/" target="_blank">30 day Javascript coding challenge</a> - As of July 27th, I have completed up to day 5 of Wes Bos's program and every day I learn a lot of new techniques. This course is exceeding my wildest expectations. I will definitely take several of Wes' other courses once this one is completed.
 	            		</li>
 	            		<li><a href="https://codecademy.com/learn" target="_blank">Codecademy.com</a> - I have taken several courses on codecademy, including "Introduction to JavaScript" and "Learn the command line." I find the frequent hands-on "PRO" projects very helpful to reinforce practical application of the taught concepts. Generally, once I have completed my other daily commitments and any other targeted learning, I spend the rest of my time working on a codecademy course. I plan to complete the React courses and then the JQuery course next, and then continue working on the freeCodecamp curriculum as a priority.
 	            		</li>
 	            		<li><a href="http://gedd.ski/" target="_blank">Dave Geddes'</a> <a href="https://flexboxzombies.com/p/flexbox-zombies" target="_blank">Flexbox Zombies</a> - This "course" makes mastering flexbox fun. At the author's recommendation, I do only one chapter a day to take advantage of the benefits of spaced repetition.
 	            		</li>            		
 	            	</ul>
-					<br />
 					<p>Next steps:</p>
 					<ul>
 						<li>Besides for the blog, I also have some pretty cool projects in mind that require backend skills. I know I need PHP, so I'll make that my next priority.
 						</li>
 					</ul>
+					<p class="date">July 27<sup>th</sup>, 2018</p>
 	            </div>
+	            <div class="blog-entry">
+	            	<h3>AJAX, DOM, CSS displays, and more!</h3>
+	        		<p>Since my last update:</p>
+	        		<ul>
+	        			<li>Yesterday, I built most of the FCC Drum Machine project, fulfilling all project requirements and getting most of the styling and scripting down. This morning I added the "bank" functionality and refactored the code a bit. <a href="https://codepen.io/CTKShadow/pen/bjYROj" target="_blank">See it here.</a> The FCC suggests using a Front-End framework, such as React, to complete these projects. I'm going to build a Pure JS version as well as React versions to get a feel for different ways to accomplish things.
+	        			</li>
+	        			<li>Yesterday, I completed the "Type Ahead" challenge for Wes Bos' 30 day JavaScript Challenge. I was already familiar with <span class="acronym" title="Asyncronous JavaScript and XML">AJAX</span> from Codecademy.com, so to make things a bit interesting for myself I used ES8 syntax instead of the ES7 that Wes used. This was a great project to get more comfortable in that department, and also working with <span class="acronym" title="Document Object Model">DOM</span> elements. 
+	        			</li>
+	        			<li>Today, I did the "Cardio Array 2" challenge from Wes Bos. I was only loosely familiar with the functions covered (<code>.some()</code>, <code>.every()</code>, <code>.find()</code>, and <code>.findIndex()</code>), but I was able to infer how to use them before watching the video as I already have a strong handle on the other array methods. The biggest takeaway from this lesson was the trick of using <code>console.log({variable})</code> when testing so that <code>variable</code> is automatically labeled in the console. Clever stuff.
+	        			</li>
+	        			<li>In Flexbox Zombies, I've completed 3 chapters, covering "order" (which is immediately useful to keep the introduction of the blog at the top of the page), "flex-wrap" (which I was already familiar with), and "align-content." Only two chapters left, and then I'll reinforce my Flexbox Mastery with Wes Bos' <a href="https://flexbox.io/" target="_blank">What the Flexbox?"</a> course.
+	        			</li>
+	        			<li>On Codecademy.com, I've done most of the CSS course. My CSS is strong already but I find it helpful to do a kind of spaced repetition to really solidify some of the trickier nuances. So far, it's improved my understanding of exactly how margin collapse works (verically, but not horizontally), the benefit to using HSL over HEX (it makes it easier to make small changes to how light/dark a color is by changing the L, or to find other colors that work well by changing the H), and some details with display options (besides display: flex).
+	        			</li>
+	        			<li>In addition to the above structured learning, I also did a bit of monkeying around with CSS and JavaScript to see if I could create a "game" grid. See the proof-of-concept in <a href="https://codepen.io/CTKShadow/pen/xJPNVW" target="_blank">this pen</a>. I would definitely use React to build an actual app before adding monsters and graphics and all the rest, but as a proof of concept this served as an excellent proof of understanding of the DOM model that I've been getting from Wes Bos combined with the display CSS properties from the Codecademy CSS course.</li>
+	        		</ul>
+	        	<p>Tomorrow, I'll finish the CSS course on Codecademy (looking forward to CSS Grid!), do the next challenge from Wes Bos, complete the penultimate chapter of Flexbox Zombies, build the Pure JS version of the JavaScript Calculator for FCC, and practice my Git by doing an update about all that!
+				</p>
+				<p class="date">July 29<sup>th</sup>, 2018</p>
         	</div>
+        	</div>
+        	
             <div id="nav-container">
                 <a href="index.html"
                    class="nav-links">Home
@@ -52,6 +75,7 @@
                    class="nav-links">About
                 </a>
             </div>
+
         </div>
 
         <script src="scripts/main.js"></script>
