@@ -78,7 +78,7 @@ p {
 
 .major {
 	transition: font-size 0.5s cubic-bezier(0.60,-0.20, 0.75,-0.10);  
-	font-size: 24px;
+	font-size: 36px;
 }
 
 .minor {
